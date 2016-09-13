@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'argo';
+
+var ArgoCli = require('../lib/cli');
+
+ArgoCli.run(process.argv);

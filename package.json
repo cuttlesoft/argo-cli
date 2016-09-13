@@ -1,0 +1,43 @@
+{
+  "name": "argo",
+  "version": "0.0.0",
+  "description": "A commander CLI app",
+  "private": true,
+  "bin": {
+    "argo": "./bin/argo"
+  },
+  "scripts": {
+    "test": "npm run jasmine",
+    "jasmine": "jasmine-node --captureExceptions  spec/"
+  },
+  "author": {
+    "name": "Cuttlesoft",
+    "email": "",
+    "url": "https://bitbucket.org/cuttlesoft"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/cuttlesoft/argo.cli"
+  },
+  "license": "MIT",
+  "bugs": "https://bitbucket.org/cuttlesoft/argo.cli",
+  "dependencies": {
+    "autocmdr": "~0.0.7",
+    "colors": "^1.1.2",
+    "commander": "~2.0.0",
+    "hg": "^0.2.0",
+    "inquirer": "^1.1.2",
+    "look-up": "^0.8.3",
+    "minimist": "^1.2.0",
+    "nodegit": "^0.14.1",
+    "q": "^1.4.1",
+    "slug": "^0.9.1",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "rewire": "^2.5.2",
+    "shelljs": "^0.7.3"
+  }
+}
