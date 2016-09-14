@@ -35,6 +35,11 @@
     "superagent": "^2.0.0"
   },
   "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.1",
     "jasmine": "^2.4.1",
     "jasmine-node": "^1.14.5",
     "rewire": "^2.5.2",
