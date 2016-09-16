@@ -93,16 +93,16 @@ describe('Cli', function() {
 
     });
 
-    it('should inform if cuttle.project exists', function() {
+    it('should inform if argo.project exists', function() {
       projectExists = init.__get__('projectExists');
       spyOn(fs, 'existsSync').andReturn(true);
 
       projectExists('/fakePath');
-      expect(consoleSpy).toHaveBeenCalledWith(('\nArgo project already exists in /fakePath').red);
+      expect(consoleSpy).toHaveBeenCalledWith(('\nargo.project already exists in /fakePath').red);
     });
 
     // maybe more of an integration test???
-    it('should stop if cuttle.project exists', function() {
+    it('should stop if argo.project exists', function() {
       // var inqSpy = spyOn(inquirer, 'prompt').andReturn(true);
       // var processSpy = spyOn(process, 'cwd').andReturn('/fakePath');
     });

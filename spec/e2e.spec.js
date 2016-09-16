@@ -52,7 +52,7 @@ describe('end-to-end', function() {
     expect(true).toEqual(true);
   });
 
-  // it('should create a .git/ and cuttle.project if neither exists currently', function() {
+  // it('should create a .git/ and argo.project if neither exists currently', function() {
   //   var args = [ '/usr/local/Cellar/node/5.4.0/bin/node',
   //       '/usr/local/bin/argo',
   //       'init' ]
@@ -65,7 +65,7 @@ describe('end-to-end', function() {
   //     }).then(function() {
   //       expect(cwdSpy).toHaveBeenCalledWith(project);
   //       // expect(requestSpy).toHaveBeenCalledWith();
-  //       // expect(path.join(project, 'cuttle.project')).toExist();
+  //       // expect(path.join(project, 'argo.project')).toExist();
   //     });
   // });
 });

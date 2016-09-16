@@ -1,14 +1,14 @@
-# Argo CLI
+# argo
 
 ## About
 
-Argo CLI is a command line tool for project management.
+argo is a CLI tool for project management.
 
 ## Installation
 
-Change into the argo.cli directory and run
+Install argo globally via npm:
 
-    npm install && npm link
+    npm install -g argo-cli
 
 ## Usage
 
@@ -18,13 +18,13 @@ To run argo, the team name for Bitbucket must be configured as an environment va
 
 ### Initialize Project
 
-Initialize a new Argo project, either from scratch or within an existing project/repository.
+Initialize a new argo project, either from scratch or within an existing project/repository.
 
     argo init
 
-When initializing a new project from scratch, the Argo project and associated repository will be created in a new directory, relative to the current directory, based on the user's selections in the CLI prompt.
+When initializing a new project from scratch, the argo project and associated repository will be created in a new directory, relative to the current directory, based on the user's selections in the CLI prompt.
 
-When initializing a new project from an existing project/repository, the Argo project will be created within the existing project folder.
+When initializing a new project from an existing project/repository, the argo project will be created within the existing project folder.
 
 ### Update Project
 
@@ -61,7 +61,7 @@ Example:
 
 #### Add
 
-Add a new rule to an existing Argo project, following prompts from the CLI.
+Add a new rule to an existing argo project, following prompts from the CLI.
 
     argo rule add
 
