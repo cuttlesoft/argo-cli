@@ -13,14 +13,14 @@
   "author": {
     "name": "Cuttlesoft",
     "email": "",
-    "url": "https://bitbucket.org/cuttlesoft"
+    "url": "https://github.com/cuttlesoft"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/cuttlesoft/argo.cli"
+    "url": "https://github.com/cuttlesoft/argo-cli"
   },
   "license": "MIT",
-  "bugs": "https://bitbucket.org/cuttlesoft/argo.cli",
+  "bugs": "https://github.com/cuttlesoft/argo-cli",
   "dependencies": {
     "autocmdr": "~0.0.7",
     "colors": "^1.1.2",
