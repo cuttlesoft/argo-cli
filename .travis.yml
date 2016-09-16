@@ -9,6 +9,12 @@ branches:
   - release
   - travis
 before_install: npm install -g npm
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++6
 deploy:
   provider: npm
   email: engineering@cuttlesoft.com
