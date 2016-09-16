@@ -2,7 +2,6 @@
   "name": "argo-cli",
   "version": "0.0.0",
   "description": "A CLI for project management",
-  "private": true,
   "bin": {
     "argo": "./bin/argo"
   },
