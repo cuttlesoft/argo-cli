@@ -1,14 +1,13 @@
 {
-  "name": "argo",
+  "name": "argo-cli",
   "version": "0.0.0",
-  "description": "A commander CLI app",
-  "private": true,
+  "description": "A CLI for project management",
   "bin": {
     "argo": "./bin/argo"
   },
   "scripts": {
     "test": "npm run jasmine",
-    "jasmine": "jasmine-node --captureExceptions  spec/"
+    "jasmine": "jasmine-node --captureExceptions spec/"
   },
   "author": {
     "name": "Cuttlesoft",
@@ -20,7 +19,7 @@
     "url": "https://github.com/cuttlesoft/argo-cli"
   },
   "license": "MIT",
-  "bugs": "https://github.com/cuttlesoft/argo-cli",
+  "bugs": "https://github.com/cuttlesoft/argo-cli/issues",
   "dependencies": {
     "autocmdr": "~0.0.7",
     "colors": "^1.1.2",
