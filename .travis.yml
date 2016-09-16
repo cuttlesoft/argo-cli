@@ -1,4 +1,14 @@
 language: node_js
 node_js:
-  - '0.8'
-  - '0.10'
+- '0.8'
+- '0.10'
+install: npm install
+script: npm test
+deploy:
+  provider: npm
+  email: engineering@cuttlesoft.com
+  api_key:
+    secure: IpWYEbVOyExM6FnX9WPnVppL40sOOAQr9FVAVRJChSDnysQhmyvZf/EQn5f5Tx1VPgWa0yf2V9PrUpt5AGzday0bgFzKhooef9FMCSwI7lHn9tCA43I1YC4yMT12HOJQO8eT0B2xdxc+Q533+YWOjUj7dY5Ngb11NklGzMvNH6IJMzqyvWMvJnETwITWPVW1G0HUZfdfFSho10Cl3/KTUzRb7jVYy0WlpbmXH1VH3CjUegKeuOL+wuJ8Yxe/1RHj7pNAp83SlrDdk6ULY/YIvlTfsX2xswSS1Q8ZlxVm0EzxTB0zN6/u3gDFx0cFcaYBEYG6Pdbw0AUrOMXeokctePCSaH2ySMuT4MBqXxKRQ8H9nBvXv5NJ5ZdU0fllRAHxuvLikSVExUPcsomjluKNoL/Zw/9Nc86ErqOItG/9xgGJMExzA0CUvNCWupEgOWz6aboFTZqhDremqW1QsIC3glgFcsQXS9UYpHcyybRfYEbo8mg01QPlo95808ME6rVsU9drxMwtm3Bfb8xoi7MHe8zZN7C+/Ybux7LetoNS0BD0WbHTcJM9AHpjb+98vq1nY/pFYQJULFF+CL6ZUXIMoj2wAlGyyH8pjtV3J0sdy2SOeJG9YtkRrG5wU2mKYaLp18517hsrZgw5JhYfLj+SNHFwBDRdajs0UtNEaEC6oqM=
+  on:
+    tags: true
+    repo: cuttlesoft/argo-cli
