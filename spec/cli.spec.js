@@ -37,7 +37,7 @@ describe('Cli', function() {
       spyOn(ArgoCli, 'lookupTask').andReturn(fakeTask);
     });
 
-    it('should get version when version flag passed', function() {
+    xit('should get version when version flag passed', function() {
       spyOn(ArgoCli, 'version');
       ArgoCli.run([ '/usr/local/Cellar/node/5.4.0/bin/node',
           '/usr/local/bin/argo',
